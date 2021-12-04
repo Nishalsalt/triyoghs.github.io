@@ -323,12 +323,6 @@ body{
   --weight3: 600;
 }
 
-body {
-  font-size: 15px;
-  font-family: 'Montserrat', sans-serif;
-  background-color: var(--veryLightGray);
-}
-
 .attribution { 
   font-size: 11px; text-align: center; 
 }
