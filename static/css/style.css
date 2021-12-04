@@ -37,7 +37,11 @@ body{
   line-height: 0.8;
   margin-bottom: 50px;
   margin-top: 200px;
-  color: grey;
+  color: rgb(240, 231, 231);
+}
+
+.header h1 {
+  font-size: 50px;
 }
 
 .header p {
