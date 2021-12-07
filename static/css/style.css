@@ -22,7 +22,7 @@ body{
 .section-center{
   position: absolute;
   top: 50%;
-  left: 0;
+  left: 20px;
   display: block;
   width: 100%;
   padding: 0;
