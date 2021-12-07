@@ -45,7 +45,7 @@ body{
 }
 
 .header p {
-  margin: 0 auto;
+  margin-bottom: 10px auto;
   line-height: 2;
   color: #f8a7ff;
 }
@@ -316,7 +316,7 @@ body{
 /* CARDS */
 
 .cards-list {
-  margin-top: 500px;
+  margin-top: 450px;
   z-index: 0;
   width: 100%;
   display: flex;
@@ -374,10 +374,11 @@ body{
 
 @media all and (max-width: 500px) {
   .card-list {
-    margin-top: 800px;
+    margin-top: 900px;
     flex-direction: column;
   }
   .card {
+    margin: 40px auto;
     width: 200px;
     height: 200px;
   }
