@@ -374,7 +374,11 @@ body{
 
 @media all and (max-width: 500px) {
   .card-list {
-    margin-top: 600px;
+    margin-top: 800px;
     flex-direction: column;
+  }
+  .card {
+    width: 300px;
+    height: 300px;
   }
 }
