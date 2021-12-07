@@ -373,12 +373,6 @@ body{
 }
 
 @media all and (max-width: 500px) {
-  .card-list {
-    margin-top: 900px;
-    flex-direction: column;
-  }
-  .card {
-    margin-top: 40px;
-    height: 300px;
-  }
+  /* Make responsive */
+  /* Assignees: Suvasish, Sitanshu */
 }
