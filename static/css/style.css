@@ -348,6 +348,7 @@ body{
 }
 
 .card .card_title {
+  font-family: 'Montserrat', sans-serif;
   text-align: center;
   border-radius: 0px 0px 40px 40px;
   font-family: sans-serif;
@@ -373,6 +374,7 @@ body{
 
 @media all and (max-width: 500px) {
   .card-list {
+    margin-top: 600px;
     flex-direction: column;
   }
 }
