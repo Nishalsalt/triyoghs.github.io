@@ -431,6 +431,12 @@ body{
     color: wh;
     font-size: 60px;
   } 
+
+  .header-additional h1 {
+    color: wh;
+    font-size: 60px;
+  } 
+
   .cards-list {
     margin-top: 50px;
   }
