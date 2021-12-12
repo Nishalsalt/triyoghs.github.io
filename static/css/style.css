@@ -44,7 +44,27 @@ body{
   left: 50%;
   transform: translate(-50%,-50%);
   text-align: center;
+}
 
+.header-additional {
+  width: 90%;
+  color: whitesmoke;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+  margin-top: 200px;
+}
+
+.header-additional h1 {
+  font-size: 50px;
+}
+
+.header-additional p {
+  margin-bottom: 10px 0 40px;
+  line-height: 2;
+  color: whitesmoke
 }
 
 .header h1 {
