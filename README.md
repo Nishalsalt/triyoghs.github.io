@@ -5,3 +5,6 @@ A website for the school. This is going to be merged/committed to https://triyog
 
 - [@ItsSitanshu](https://www.github.com/ItsSitanshu)
 - [@Suvashish26](https://www.github.com/suvashish26)
+
+## Contributors
+- [@TheCoolGDev](https://www.github.com/TheCoolGDev)
