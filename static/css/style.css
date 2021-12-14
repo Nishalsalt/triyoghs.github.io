@@ -29,7 +29,7 @@ body{
 
 .section-center{
   position: absolute;
-  top: 50%;
+  top: 7%;
   left: 20px;
   display: block;
   width: 100%;
@@ -54,7 +54,7 @@ body{
   width: 90%;
   color: whitesmoke;
   position: absolute;
-  top: 50%;
+  top: 100%;
   left: 50%;
   transform: translate(-50%,-50%);
   text-align: center;
