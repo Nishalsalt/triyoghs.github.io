@@ -1,86 +1,87 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap');
 
-
-/* All */
-*{
-  margin: 0;
-  padding: 0;
+* {
+    margin: 0%;
+    padding: 0%;
 }
-
-body{
-	 background: #8B0000;
-	font-family: 'Montserrat', sans-serif;
-	font-weight: 300;
-	font-size: 15px;
-	line-height: 1.7;
-	color: #ececee;
-	overflow: auto;
-	overflow-x: hidden;
+body {
+    background-color: #f2f2f2;
+    overflow-x: hidden;
 }
+/* Preloader starts */
 
-.main-header{
-  min-height: 100vh;
+/* #Preloader {
+  background-color: #fff;
+  height: 100vh;
   width: 100%;
-  background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url('../img/background.jpg');
-  background-position: center;
-  background-size: cover;
-  position: relative;
+  position: fixed;
+  z-index: 100%;
 }
-
-.section-center{
-  position: absolute;
-  top: 7%;
-  left: 20px;
-  display: block;
-  width: 100%;
-  padding: 0;
-  margin: 0;
-  z-index: 6;
-  text-align: center;
-  transform: translateY(-50%);
-}
-
-.header {
-  width: 90%;
-  color: whitesmoke;
+.preloader-image {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%,-50%);
-  text-align: center;
-}
+  transform: translate(-50%, -50%);
+} */
 
-.header-additional {
-  width: 90%;
-  color: whitesmoke;
-  position: absolute;
-  top: 100%;
-  left: 50%;
-  transform: translate(-50%,-50%);
-  text-align: center;
-  margin-top: 250px;
-}
+/* Preloader ends */
 
-.header-additional h1 {
-  font-size: 50px;
-}
 
-.header-additional p {
-  margin-bottom: 10px 0 40px;
-  line-height: 2;
-  color: whitesmoke
+/* Navbar starts */
+#Navbar {
+    width: 100%;
+    position: fixed;
 }
+.navbar{
+    background-color: #610d1100;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.navbar-scroll {
+    background-color: #8B0000;
+}
+.Navbar-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.Navbar-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.Navbar-logo {
+    height: 17vh;
+}
+.Navbar-logo-main {
+    height: 20vh;
+}
+.Navbar-menu ul {
+    display: flex;
+    font-size: 1.5em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    list-style: none;
+    justify-content: space-evenly;
+    padding: 10px;
+    margin: 10px;
+}
+.Navbar-menu ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    margin: 25px;
+}
+/* Navbar Checkbox starts */
 
-.header h1 {
-  font-size: 50px;
-}
-
-.header p {
-  margin-bottom: 10px 0 40px;
-  line-height: 2;
-  color: whitesmoke
-}
-/* Nav */
 [type="checkbox"]:checked,
 [type="checkbox"]:not(:checked){
   position: absolute;
@@ -90,7 +91,7 @@ body{
 .menu-icon:checked + label,
 .menu-icon:not(:checked) + label{
   position: fixed;
-  top: 63px;
+  top: 40px;
   right: 75px;
   display: block;
   width: 30px;
@@ -164,7 +165,7 @@ body{
 
 .nav{
   position: fixed;
-  top: 33px;
+  top: 13px;
   right: 50px;
   display: block;
   width: 80px;
@@ -317,18 +318,91 @@ body{
   transition-delay: 1760ms;
 }
 
-.logo {
-	position:absolute;
-  top:16px;
-  left:9px;
-	z-index: 11;
-	transition: all 250ms linear;
+/* Navbar Checkbox ends */
+
+
+/* Navbar Ends */
+
+/* Main header stars */
+
+.main-header {
+    min-height: 100vh;
+    width: 100%; 
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url('static/img/background.jpg');
+    background-position: center;
+    background-size: cover;
 }
-.logo img {
-  height: 190px;
-  width: auto;
-	display: block;
+.section-center{
+    position: absolute;
+    top: 40%;
+    left: 20px;
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    z-index: 6;
+    text-align: center;
+    transform: translateY(-50%);
+  }
+  
+  .header-additional {
+    width: 90%;
+    color: whitesmoke;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 250px;
+  }
+  
+  .header-additional h1 {
+    font-size: 50px;
+  }
+  
+  .header-additional p {
+    margin-bottom: 10px 0 40px;
+    line-height: 2;
+    color: whitesmoke
+  }
+  
+  .header-additional h1 {
+    font-size: 50px;
+  }
+  
+  .header-additional p {
+    margin-bottom: 10px 0 40px;
+    line-height: 2;
+    color: whitesmoke
+  }
+
+/* Main header ends */
+
+/* Custom Scroll bar starts */
+
+::-webkit-scrollbar {
+  width: 13px;
 }
+
+::-webkit-scrollbar-track {
+  background: #fff;
+}
+
+::-webkit-scrollbar-thumb {
+  box-shadow: inset 0 0 5px rgb(255, 255, 255);
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background: #111;
+}
+
+/* Custom Scroll bar ends */
+
+/* Preloder starts */
+
+
+
+/* Preloder ends */
 
 /*.values {
   position: fixed;
